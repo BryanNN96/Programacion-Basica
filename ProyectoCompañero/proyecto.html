@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pe">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Muevelo muevelo</title>
+    <style>
+        #palitoDibujito {
+            background-color: #FFFBDF;
+        }
+        body{
+          font-family:cursive;
+        }
+    </style>
+</head>
+
+<body>
+<p>ojala sea esto porque no se como mas <br>
+  <h1>Esto es para comprobar algo</h1>
+</p>
+
+    <p>
+        Color: <input type="color" value="#000" id="colorcito"><br>
+        Grosor de lapiz: <input type="number" min="1"  max="10" value=1 id="numerito"><br>
+        coordenadas x,y: (<span id="coordenadas">0,0</span>)
+    </p>
+    <canvas id="palitoDibujito" width="1000" height="500"></canvas>
+    <p>Presiona las flechas para dibujar o haz click y arrastra con el mouse</p>
+    <script src="proyecto.js"></script>
+</body>
+
+</html>
