@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Pintame</title>
+
+    <style media="screen">
+
+    #espacioPintame {
+      background-color: white;
+    }
+    body
+      {
+        background-color: #04053A;
+        color: white;
+        font-family:cursive;
+
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <p>¿Sabes dibujar? <br>
+      <h1>Enseñame tus habilidades con el pincel</h1>
+  </p>
+    <input type="color" id="colorPincel" value="#000"> <br>
+    <input type="range" id="tamañoPincel" max="25" min="1"value="5">
+    <canvas id="espacioPintame" width="1000" height="500"></canvas>
+    <script src="Pintame.js" charset="utf-8"></script>
+  </body>
+</html>
